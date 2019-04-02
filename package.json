@@ -1,7 +1,10 @@
 {
   "name": "cat-dependencies",
-  "version": "0.1.0",
-  "main": "bin/cat-dependencies.js",
+  "version": "0.1.1",
+  "main": "index.js",
+  "bin": {
+    "cat-dependencies": "./bin/cat-dependencies.js"
+  },
   "repository": "git@github.com:azat-io/cat-dependencies.git",
   "author": "Azat S. <to@azat.io>",
   "license": "MIT",
