@@ -5,6 +5,11 @@
   "repository": "git@github.com:azat-io/cat-dependencies.git",
   "author": "Azat S. <to@azat.io>",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "yarn lint"
+  },
+  "pre-commit": "lint",
   "dependencies": {
     "chalk": "2.4.2",
     "lodash": "4.17.11"
